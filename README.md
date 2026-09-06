@@ -214,7 +214,7 @@ This allows users to upload and manage images for their travel listings.
 ## 🔮 Future Improvements
 
 * [ ] Dynamic geocoding for every listing
-* [ ] Search listings
+* [x] Search listings
 * [ ] Filter listings by location
 * [ ] Wishlist functionality
 * [ ] User profile page
