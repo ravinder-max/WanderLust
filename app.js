@@ -104,8 +104,9 @@ app.get("/demoUser",async (req,res)=>{
 //     res.send("cookie alredy sent");
 // })
 
-app.listen(8080,()=>{
-    console.log("server is listeng on port 8080");
+const port = process.env.PORT || 8080;
+app.listen(port,()=>{
+    console.log(`server is listening on port ${port}`);
 });
 
 
